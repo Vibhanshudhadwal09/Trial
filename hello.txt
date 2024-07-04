@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 hello karan
+=======
+hello
+>>>>>>> 5cebad10a0f6c061ec73c2e6d01cdabda0bd9e82
