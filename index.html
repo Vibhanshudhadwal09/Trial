@@ -132,8 +132,8 @@
           setErrorMsg(username, "Username cannot be blank");
         } else if (usernameValue.length <= 2) {
           setErrorMsg(username, "Username must be at least 3 characters");
-        } else {
           setSuccessMsg(username);
+        } else {
         }
 
         if (emailValue === "") {
@@ -154,7 +154,7 @@
 
         if (passwordValue === "") {
           setErrorMsg(password, "Password cannot be blank");
-        } else if (passwordValue.length < 8) {
+        } else if (passwordValue.length <= 8) {
           setErrorMsg(password, "Password must be at least 8 characters");
         } else {
           setSuccessMsg(password);
